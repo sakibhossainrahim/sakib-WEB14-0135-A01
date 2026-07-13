@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* ================= NAVBAR ================= */
+/* ---------------- NAVBAR ---------------------*/
 .navbar {
   width: 100%;
   display: flex;
@@ -43,5 +43,54 @@
   cursor: pointer;
 }
 .btn-register:hover {
+  background: #1d4ed8;
+}
+
+/* ---------------- HERO ---------------------*/
+.hero {
+  min-height: 80vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+.hero-content {
+  max-width: 750px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.hero-content h1 {
+  color: white;
+  font-size: 56px;
+  font-weight: 800;
+}
+
+.hero-content p {
+  color: #e2e8f0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.hero-btn-register {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 120px;
+}
+
+.hero-btn-register:hover {
   background: #1d4ed8;
 }
