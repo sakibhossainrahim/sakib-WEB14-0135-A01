@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 50px;
+  background: #ffffff;
+}
+.nav-logo img {
+  width: 150px;
+  height: auto;
+}
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-menu a:hover {
+  color: #2563eb;
+}
+.btn-register {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-register:hover {
+  background: #1d4ed8;
+}
