@@ -148,3 +148,204 @@
   margin-top: 10px;
   color: #64748b;
 }
+
+
+/* ------------ PRICING ------------------------ */
+
+.pricing {
+  max-width: 1200px;
+
+  margin: 80px auto;
+
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+
+  margin-bottom: 60px;
+}
+
+.heading h2 {
+  font-size: 46px;
+
+  font-weight: 800;
+
+  color: #0f172a;
+}
+
+.heading p {
+  margin-top: 12px;
+
+  color: #64748b;
+}
+
+.pricing-container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+
+  align-items: center;
+}
+
+.price-card {
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 16px;
+
+  padding: 40px 32px;
+
+  min-height: 550px;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.plan {
+  color: #64748b;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.price-card h3 {
+  font-size: 44px;
+
+  color: #0f172a;
+
+  margin-top: 15px;
+}
+
+.price-card small {
+  color: #64748b;
+}
+
+.price-card hr {
+  margin: 30px 0;
+
+  border: none;
+
+  border-top: 1px solid #e2e8f0;
+}
+
+.price-card ul {
+  list-style: none;
+
+  flex: 1;
+}
+
+.price-card li {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 15px;
+
+  font-size: 14px;
+
+  color: #334155;
+}
+
+.price-card li::before {
+  content: "";
+
+  width: 6px;
+
+  height: 6px;
+
+  background: #2563eb;
+
+  border-radius: 50%;
+}
+
+.price-card button {
+  width: 100%;
+
+  height: 46px;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  margin-top: 20px;
+}
+
+.btn-standard {
+  background: white;
+
+  color: #2563eb;
+
+  border: 1px solid #2563eb;
+}
+
+.btn-standard:hover {
+  background: #eff6ff;
+}
+
+.btn-team {
+  background: #f8fafc;
+
+  color: #0f172a;
+
+  border: 1px solid #cbd5e1;
+}
+
+.btn-team:hover {
+  background: #e2e8f0;
+}
+
+
+.price-card.pro {
+  background: #0b1329;
+
+  border: none;
+
+  min-height: 590px;
+}
+
+.pro .plan {
+  color: #38bdf8;
+}
+
+.pro h3 {
+  color: white;
+}
+
+.pro small {
+  color: #94a3b8;
+}
+
+.pro li {
+  color: #94a3b8;
+}
+
+.pro li::before {
+  background: #38bdf8;
+}
+
+.pro hr {
+  border-color: #1e293b;
+}
+
+.btn-pro {
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+}
+/* ------------------- CARD END----------------*/
