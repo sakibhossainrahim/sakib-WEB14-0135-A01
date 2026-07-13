@@ -94,3 +94,57 @@
 .hero-btn-register:hover {
   background: #1d4ed8;
 }
+
+/* ================= SPEAKERS ================= */
+
+.speakers {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+.speakers h2 {
+  text-align: center;
+  font-size: 46px;
+  margin-bottom: 50px;
+  color: #0f172a;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+}
+.card img {
+  width: 100%;
+  height: 285px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 25px;
+}
+
+.content span {
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.content h3 {
+  margin-top: 12px;
+  font-size: 22px;
+  color: #111827;
+}
+
+.content p {
+  margin-top: 10px;
+  color: #64748b;
+}
