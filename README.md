@@ -1,6 +1,6 @@
 # 🚀 Project Name
 
-Short description of the project.
+
 
 ---
 
@@ -19,10 +19,7 @@ Short description of the project.
 
 ## 🛠️ Technologies
 
-- React
-- TypeScript
-- Tailwind CSS
-- JavaScript
+
 
 ---
 
