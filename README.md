@@ -39,7 +39,7 @@ The project is built using **HTML5 and CSS3**. The main goal of this assignment 
 
 ## 📸 Project Screenshot
 
-![Project Screenshot](./assets/project-screenshot.png)
+
 
 > Replace `./assets/project-screenshot.png` with your actual screenshot path.
 
@@ -55,17 +55,3 @@ git clone https://github.com/sakibhossainrahim/sakib-WEB14-0135-A01.git
 
 
 
-Go to the project directory
-cd sakib-WEB14-0135-A01
-
-
-
-Project Structure
-sakib-WEB14-0135-A01/
-│
-├── assets/
-│   └── project-screenshot.png
-│
-├── index.html
-├── style.css
-└── README.md
